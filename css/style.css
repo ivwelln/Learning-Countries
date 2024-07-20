@@ -1,4 +1,28 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(61, 160, 202, 0.751);
+    color: rgb(216, 255, 244);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+header {
+    background-color: cornflowerblue;
+    height: 10vh;
+}
+
 .text-plate {
+    flex-direction: column;
+    align-content: center;
     text-align: center;
-    background-color: rgba(73, 146, 202, 0.388);
+    background-color: rgba(64, 128, 177, 0.388);
+    height: 100px;
+    width: 60vw;
+    border-radius: 10px;
+    margin: 5vw;
 }
